@@ -5,6 +5,7 @@ In the following example if I call the module only if the enviroment is not sand
 Moreover It will genereate a password for every member of VM_DEF. 
 In module calling it is fundamental redefine the providers is the vault is on a different subscription (IE on the Identity subscription)
 
+```erlang
 Example of usage:
 
 module "put_pwd_vm_prod" {
@@ -50,3 +51,4 @@ module "put_pwd_vm_sandbox" {
   }
 
 }
+```
